@@ -1,0 +1,37 @@
+https://github.com/cobiwave/simplefolio?tab=readme-ov-file
+
+npm install parcel@latest
+npm install @parcel/transformer-sass@latest
+
+Entendi, parece que ainda estamos enfrentando um problema de versão. Vamos tentar resolver isso atualizando todas as dependências para versões compatíveis. Aqui estão os passos:
+
+Atualize o Parcel e o @parcel/transformer-sass:
+
+bash
+npm install parcel@latest
+npm install @parcel/transformer-sass@latest
+Atualize o package.json: Certifique-se de que o package.json esteja atualizado com as versões mais recentes:
+
+json
+{
+  "name": "simplefolio",
+  "version": "1.0.1",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.0",
+    "parcel": "^2.13.0",
+    "prettier": "^2.8.1"
+  },
+  "scripts": {
+    "start": "parcel"
+  }
+}
+Reinstale as Dependências:
+
+bash
+rm -rf node_modules
+npm install
+Execute o Projeto:
+
+bash
+npm start
+Se o problema persistir, pode ser útil verificar se há outras dependências que possam estar causando conflitos. Você pode tentar criar um novo projeto simples com Parcel e @parcel/transformer-sass para ver se o problema ocorre lá também.
