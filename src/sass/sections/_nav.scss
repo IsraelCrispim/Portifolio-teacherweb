@@ -1,0 +1,52 @@
+// Variáveis
+$dark-grey: rgba(255, 255, 255, 0.778); // Cor com transparência para efeito de vidro
+
+// Estilos para a navbar
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%; // Posiciona a navbar centralizada horizontalmente
+  transform: translateX(-50%); // Ajusta a posição para que a navbar esteja centralizada
+  width: 70%; // Define a largura da navbar
+  padding:  2rem 1rem 2rem; // Adiciona padding-top de 20px
+  margin-top: 20px;
+  background: $dark-grey;
+  backdrop-filter: blur(10px); // Adiciona desfoque
+  -webkit-backdrop-filter: blur(10px); // Suporte para navegadores WebKit
+  border-radius: 20px; // Bordas arredondadas na parte inferior
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); // Borda suave na parte inferior
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra leve
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; // Garante que a navbar fique sobre outros elementos
+
+  // Estilos para os links da navbar
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+        background: linear-gradient(to right, #30cfd0 0%, #0785b1 100%); // Gradiente aplicado ao texto
+        -webkit-background-clip: text; // Apenas o texto é recortado com o gradiente
+        -webkit-text-fill-color: transparent; // Preenche o texto com o gradiente
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+
+  // Estilos para o logo da navbar
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #30cfd0 0%, #0785b1 100%); // Gradiente aplicado ao texto
+    -webkit-background-clip: text; // Apenas o texto é recortado com o gradiente
+    -webkit-text-fill-color: transparent; // Preenche o texto com o gradiente
+  }
+  
+}
