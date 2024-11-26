@@ -1,4 +1,4 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/IsraelCrispim/Portifolio-teacherweb?color=blue)](https://github.com/cobiwave/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobiwave/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobiwave/simplefolio)
+# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobiwave/simplefolio?color=blue)](https://github.com/cobiwave/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobiwave/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobiwave/simplefolio)
 
 ## A minimal portfolio template for Developers!
 
@@ -55,7 +55,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/IsraelCrispim/Portifolio-teacherweb/
+$ git clone https://github.com/cobiwave/simplefolio
 
 # Move into the repository
 $ cd simplefolio
@@ -100,6 +100,9 @@ $ sudo npm install --unsafe-perm=true --allow-root
 
 Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
 
+<h2 align="center">
+  <img src="https://github.com/cobiwave/gatsby-simplefolio/blob/master/examples/example.png" alt="Simplefolio" width="100%">
+</h2>
 
 ---
 
@@ -315,8 +318,8 @@ If you want to get some gradients inspiration I highly recommend you to check th
 
 ```scss
 // Default values
-$main-color: #14dcf3;
-$secondary-color: #0785b1;
+$main-color: #02aab0;
+$secondary-color: #00cdac;
 ```
 
 ---
@@ -327,6 +330,10 @@ Once you finish your setup. You need to put your website online!
 
 I highly recommend to use [Netlify](https://netlify.com) because it is super easy.
 
+## Others versions 👥
+
+[Gatsby Simplefolio](https://github.com/cobiwave/gatsby-simplefolio) by [Jacobo Martinez](https://github.com/cobiwave)\
+[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
 
 ## Technologies used 🛠️
 
@@ -338,7 +345,7 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Authors
 
-- **Israel Crispim** - [https://github.com/cobiwave](https://github.com/IsraelCrispim)
+- **Jacobo Martinez** - [https://github.com/cobiwave](https://github.com/cobiwave)
 
 ## Status
 
