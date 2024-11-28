@@ -1,4 +1,3 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/IsraelCrispim/Portifolio-teacherweb.git?color=blue)](https://github.com/cobiwave/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://github.com/IsraelCrispim/Portifolio-teacherweb.git) ![GitHub forks](https://img.shields.io/github/forks/IsraelCrispim/Portifolio-teacherweb.git)
 
 ## A minimal portfolio template for Developers!
 
