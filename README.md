@@ -6,7 +6,9 @@
   <br>
 </h2>
 
-[![Vercel Status](https://vercel.com/api/deployments/teacherweb-portifolio.vercel.app)](https://vercel.com/teacherweb-portifolio/teacherweb-portifolio/deployments)
+[![Vercel Status](https://vercel.com/api/deployments/Portifolio-teacherweb/deploy-status)](https://vercel.com/IsraelCrispim/Portifolio-teacherweb/deployments)
+
+
 
 
 
