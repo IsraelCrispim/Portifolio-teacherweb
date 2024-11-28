@@ -1,17 +1,4 @@
 
-## A minimal portfolio template for Developers!
-
-<h2 align="center">
-  <img src="https://github.com/cobiwave/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
-  <br>
-</h2>
-
-[![Vercel Status](https://vercel.com/api/deployments/Portifolio-teacherweb/deploy-status)](https://vercel.com/IsraelCrispim/Portifolio-teacherweb/deployments)
-
-
-
-
-
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
