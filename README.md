@@ -6,7 +6,8 @@
   <br>
 </h2>
 
-[![Vercel Status](https://vercel.com/api/deployments/teacherweb-portifolio-6ngf9qgo8-teacherweb-projetos.vercel.app)](https://teacherweb-portifolio-6ngf9qgo8-teacherweb-projetos.vercel.app/deployments)
+[![Vercel Status](https://vercel.com/api/deployments/teacherweb-portifolio.vercel.app)](https://vercel.com/teacherweb-portifolio/teacherweb-portifolio/deployments)
+
 
 
 ## Features
